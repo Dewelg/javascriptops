@@ -56,4 +56,38 @@ function answers(){
 
 // Exercise 3
 console.log("EXERCISE 3:\n==========\n");
+let val = 5;
+let str3 = "5";
+let str4 = "five";
+let isAwake = false;
 
+//using a function to group all the answers
+function answers2() {
+  let question1 = val == str3;
+  console.log(question1);
+
+  let question2 = val === str3;
+  console.log(question2);
+
+  let question3 = !isAwake;
+  console.log(question3);
+
+  let question4 = ('eleven' == str4 && val >= str3);
+  console.log(question4);
+   
+  let question5 = (!isAwake || isAwake);
+  console.log(question5);
+
+  let question6 = 0 == false;
+  console.log(question6);
+
+  let question7 = 0 === false;
+  console.log(question7);
+
+  let question8 = 0 != false;
+  console.log(question8);
+
+  let question9 = 0 !== false;
+  console.log(question9);
+
+}
