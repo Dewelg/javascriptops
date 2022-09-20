@@ -21,13 +21,6 @@ let isPresent = true;
 let firstName = "Frodo";
 let lastName = "Baggins";
 
-//Answers to questions
-// - 1111
-// - 11eleven
-// - true
-// - Frodo11
-// - true11
-// - FrodoBaggins
 console.log("EXERCISE 2:\n==========\n");
 
 //this is a faster way 
